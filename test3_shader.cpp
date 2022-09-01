@@ -54,7 +54,7 @@ int main(){
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
-    float vertices[] = {
+    float vertices[] = { 
          0.0f,  0.5f, 0.0f,   // top right
          0.5f, -0.5f, 0.0f,   // bottom right
         -0.5f, -0.5f, 0.0f,   // bottom left
@@ -84,8 +84,8 @@ int main(){
 
         glUseProgram(shaderProgram);
         // update color
-        float timeValue = glfwGetTime();
-        float greenValue = sin(timeValue) / 2.0f + 0.5f;
+        float timeValue = glfwGetTime();        // change with time
+        float greenValue = sin(timeValue) / 2.0f + 0.5f;    
         int vertexColorLocation = glGetUniformLocation(shaderProgram, "ourColor");
         glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
         // render
