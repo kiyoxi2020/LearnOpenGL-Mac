@@ -11,5 +11,5 @@ include_directories(.)
 include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
 
-add_executable(test3 test3_shader.cpp glad.c)
+add_executable(test3 test3_shader.cpp glad.c shader_s.h test3_shader.vs test3_shader.fs)
 target_link_libraries(test3 glfw)
