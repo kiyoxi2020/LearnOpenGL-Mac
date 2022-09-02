@@ -823,7 +823,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "test3"
+			"value" : "test4"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1167,6 +1167,42 @@
 		},
 		{
 			"name" : "test3_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/yuqingwang/Downloads/OpenGL"
+		},
+		{
+			"name" : "test4_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/yuqingwang/Downloads/OpenGL/build"
+		},
+		{
+			"name" : "test4_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "test4_SOURCE_DIR",
 			"properties" : 
 			[
 				{

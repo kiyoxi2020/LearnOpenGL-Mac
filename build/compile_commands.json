@@ -1,12 +1,12 @@
 [
 {
   "directory": "/Users/yuqingwang/Downloads/OpenGL/build",
-  "command": "/usr/bin/clang++  -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/test3.dir/test3_shader.cpp.o -c /Users/yuqingwang/Downloads/OpenGL/test3_shader.cpp",
-  "file": "/Users/yuqingwang/Downloads/OpenGL/test3_shader.cpp"
+  "command": "/usr/bin/clang++  -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/test4.dir/test4_textures.cpp.o -c /Users/yuqingwang/Downloads/OpenGL/test4_textures.cpp",
+  "file": "/Users/yuqingwang/Downloads/OpenGL/test4_textures.cpp"
 },
 {
   "directory": "/Users/yuqingwang/Downloads/OpenGL/build",
-  "command": "/usr/bin/clang  -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/test3.dir/glad.c.o -c /Users/yuqingwang/Downloads/OpenGL/glad.c",
+  "command": "/usr/bin/clang  -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -o CMakeFiles/test4.dir/glad.c.o -c /Users/yuqingwang/Downloads/OpenGL/glad.c",
   "file": "/Users/yuqingwang/Downloads/OpenGL/glad.c"
 }
 ]

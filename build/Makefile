@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test3
+# Target rules for targets named test4
 
 # Build rule for target.
-test3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test3
-.PHONY : test3
+test4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test4
+.PHONY : test4
 
 # fast build rule for target.
-test3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
-.PHONY : test3/fast
+test4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/build
+.PHONY : test4/fast
 
 glad.o: glad.c.o
 .PHONY : glad.o
 
 # target to build an object file
 glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/glad.c.o
 .PHONY : glad.c.o
 
 glad.i: glad.c.i
@@ -142,7 +142,7 @@ glad.i: glad.c.i
 
 # target to preprocess a source file
 glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -150,32 +150,32 @@ glad.s: glad.c.s
 
 # target to generate assembly for a file
 glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/glad.c.s
 .PHONY : glad.c.s
 
-test3_shader.o: test3_shader.cpp.o
-.PHONY : test3_shader.o
+test4_textures.o: test4_textures.cpp.o
+.PHONY : test4_textures.o
 
 # target to build an object file
-test3_shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3_shader.cpp.o
-.PHONY : test3_shader.cpp.o
+test4_textures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/test4_textures.cpp.o
+.PHONY : test4_textures.cpp.o
 
-test3_shader.i: test3_shader.cpp.i
-.PHONY : test3_shader.i
+test4_textures.i: test4_textures.cpp.i
+.PHONY : test4_textures.i
 
 # target to preprocess a source file
-test3_shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3_shader.cpp.i
-.PHONY : test3_shader.cpp.i
+test4_textures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/test4_textures.cpp.i
+.PHONY : test4_textures.cpp.i
 
-test3_shader.s: test3_shader.cpp.s
-.PHONY : test3_shader.s
+test4_textures.s: test4_textures.cpp.s
+.PHONY : test4_textures.s
 
 # target to generate assembly for a file
-test3_shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/test3_shader.cpp.s
-.PHONY : test3_shader.cpp.s
+test4_textures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/test4_textures.cpp.s
+.PHONY : test4_textures.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test3"
+	@echo "... test4"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
-	@echo "... test3_shader.o"
-	@echo "... test3_shader.i"
-	@echo "... test3_shader.s"
+	@echo "... test4_textures.o"
+	@echo "... test4_textures.i"
+	@echo "... test4_textures.s"
 .PHONY : help
 
 

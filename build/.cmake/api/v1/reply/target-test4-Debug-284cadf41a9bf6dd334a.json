@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test3"
+			"path" : "test4"
 		}
 	],
 	"backtrace" : 1,
@@ -107,7 +107,7 @@
 			]
 		}
 	],
-	"id" : "test3::@6890427a1f51a3e7e1df",
+	"id" : "test4::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -137,8 +137,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test3",
-	"nameOnDisk" : "test3",
+	"name" : "test4",
+	"nameOnDisk" : "test4",
 	"paths" : 
 	{
 		"build" : ".",
@@ -158,15 +158,8 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				2
-			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				3,
-				4
+				2,
+				3
 			]
 		}
 	],
@@ -175,7 +168,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test3_shader.cpp",
+			"path" : "test4_textures.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -191,13 +184,8 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "test3_shader.vs",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"path" : "test3_shader.fs",
-			"sourceGroupIndex" : 2
+			"path" : "stb_image.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
