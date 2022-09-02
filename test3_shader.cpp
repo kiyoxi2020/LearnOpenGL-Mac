@@ -27,9 +27,9 @@ int main(){
                      "/Users/yuqingwang/Downloads/OpenGL/test3_shader.fs");
 
     float vertices[] = { 
-         0.0f,  0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  // top right
-         0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f,  // bottom right
-        -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f  // bottom left
+          0.0f,  0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  // top right
+         -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f,  // bottom right
+          0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f  // bottom left
     };
     unsigned int indices1[] = {
         0, 1 ,2,    // first Triangle
@@ -55,6 +55,7 @@ int main(){
     glEnableVertexAttribArray(1);
 
     ourShader.use();
+    ourShader.setFloat("offset", -0.3f);
     while(!glfwWindowShouldClose(window)){
         processInput(window);
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
