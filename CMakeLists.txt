@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.9)
 
-project(test5)
+project(test6)
 
 # set(CMAKE_CXX_STANDARD 11)
 # SET(CMAKE_BUILD_TYPE Debug)
@@ -11,5 +11,5 @@ include_directories(/usr/local/include)
 include_directories(glm)
 link_directories(/usr/local/lib)
 
-add_executable(test5 test5_transformation.cpp glad.c shader_s.h stb_image.h)
-target_link_libraries(test5 glfw)
+add_executable(test6 test6_3Dcoord.cpp glad.c shader_s.h stb_image.h)
+target_link_libraries(test6 glfw)

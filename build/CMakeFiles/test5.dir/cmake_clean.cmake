@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test5.dir/test6_3Dcoord.cpp.o"
   "CMakeFiles/test5.dir/glad.c.o"
-  "CMakeFiles/test5.dir/glad.c.o.d"
-  "CMakeFiles/test5.dir/test5_transformation.cpp.o"
-  "CMakeFiles/test5.dir/test5_transformation.cpp.o.d"
-  "test5"
   "test5.pdb"
+  "test5"
 )
 
 # Per-language clean rules from dependency scanning.
