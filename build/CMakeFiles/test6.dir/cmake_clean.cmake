@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test6.dir/test6_3Dcoord.cpp.o"
+  "CMakeFiles/test6.dir/test7_camera.cpp.o"
   "CMakeFiles/test6.dir/glad.c.o"
   "test6.pdb"
   "test6"

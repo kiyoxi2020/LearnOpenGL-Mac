@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/yuqingwang/Downloads/OpenGL/glad.c" "/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles/test6.dir/glad.c.o"
+  "/Users/yuqingwang/Downloads/OpenGL/glad.c" "/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles/test7.dir/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -16,7 +16,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../glm"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yuqingwang/Downloads/OpenGL/test7_camera.cpp" "/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles/test6.dir/test7_camera.cpp.o"
+  "/Users/yuqingwang/Downloads/OpenGL/test7_camera.cpp" "/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles/test7.dir/test7_camera.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

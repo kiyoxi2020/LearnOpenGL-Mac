@@ -57,18 +57,18 @@ include CMakeFiles/test6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test6.dir/flags.make
 
-CMakeFiles/test6.dir/test6_3Dcoord.cpp.o: CMakeFiles/test6.dir/flags.make
-CMakeFiles/test6.dir/test6_3Dcoord.cpp.o: ../test6_3Dcoord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test6.dir/test6_3Dcoord.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test6.dir/test6_3Dcoord.cpp.o -c /Users/yuqingwang/Downloads/OpenGL/test6_3Dcoord.cpp
+CMakeFiles/test6.dir/test7_camera.cpp.o: CMakeFiles/test6.dir/flags.make
+CMakeFiles/test6.dir/test7_camera.cpp.o: ../test7_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test6.dir/test7_camera.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test6.dir/test7_camera.cpp.o -c /Users/yuqingwang/Downloads/OpenGL/test7_camera.cpp
 
-CMakeFiles/test6.dir/test6_3Dcoord.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test6.dir/test6_3Dcoord.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuqingwang/Downloads/OpenGL/test6_3Dcoord.cpp > CMakeFiles/test6.dir/test6_3Dcoord.cpp.i
+CMakeFiles/test6.dir/test7_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test6.dir/test7_camera.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuqingwang/Downloads/OpenGL/test7_camera.cpp > CMakeFiles/test6.dir/test7_camera.cpp.i
 
-CMakeFiles/test6.dir/test6_3Dcoord.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test6.dir/test6_3Dcoord.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuqingwang/Downloads/OpenGL/test6_3Dcoord.cpp -o CMakeFiles/test6.dir/test6_3Dcoord.cpp.s
+CMakeFiles/test6.dir/test7_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test6.dir/test7_camera.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuqingwang/Downloads/OpenGL/test7_camera.cpp -o CMakeFiles/test6.dir/test7_camera.cpp.s
 
 CMakeFiles/test6.dir/glad.c.o: CMakeFiles/test6.dir/flags.make
 CMakeFiles/test6.dir/glad.c.o: ../glad.c
@@ -85,13 +85,13 @@ CMakeFiles/test6.dir/glad.c.s: cmake_force
 
 # Object files for target test6
 test6_OBJECTS = \
-"CMakeFiles/test6.dir/test6_3Dcoord.cpp.o" \
+"CMakeFiles/test6.dir/test7_camera.cpp.o" \
 "CMakeFiles/test6.dir/glad.c.o"
 
 # External object files for target test6
 test6_EXTERNAL_OBJECTS =
 
-test6: CMakeFiles/test6.dir/test6_3Dcoord.cpp.o
+test6: CMakeFiles/test6.dir/test7_camera.cpp.o
 test6: CMakeFiles/test6.dir/glad.c.o
 test6: CMakeFiles/test6.dir/build.make
 test6: CMakeFiles/test6.dir/link.txt

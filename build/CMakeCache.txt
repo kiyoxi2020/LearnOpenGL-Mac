@@ -142,7 +142,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=test6
+CMAKE_PROJECT_NAME:STATIC=test7
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -247,6 +247,12 @@ test6_BINARY_DIR:STATIC=/Users/yuqingwang/Downloads/OpenGL/build
 
 //Value Computed by CMake
 test6_SOURCE_DIR:STATIC=/Users/yuqingwang/Downloads/OpenGL
+
+//Value Computed by CMake
+test7_BINARY_DIR:STATIC=/Users/yuqingwang/Downloads/OpenGL/build
+
+//Value Computed by CMake
+test7_SOURCE_DIR:STATIC=/Users/yuqingwang/Downloads/OpenGL
 
 
 ########################

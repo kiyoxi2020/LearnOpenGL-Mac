@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test6
+# Target rules for targets named test7
 
 # Build rule for target.
-test6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test6
-.PHONY : test6
+test7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test7
+.PHONY : test7
 
 # fast build rule for target.
-test6/fast:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/build
-.PHONY : test6/fast
+test7/fast:
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/build
+.PHONY : test7/fast
 
 glad.o: glad.c.o
 
@@ -129,7 +129,7 @@ glad.o: glad.c.o
 
 # target to build an object file
 glad.c.o:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/glad.c.o
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/glad.c.o
 .PHONY : glad.c.o
 
 glad.i: glad.c.i
@@ -138,7 +138,7 @@ glad.i: glad.c.i
 
 # target to preprocess a source file
 glad.c.i:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/glad.c.i
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -147,35 +147,35 @@ glad.s: glad.c.s
 
 # target to generate assembly for a file
 glad.c.s:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/glad.c.s
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/glad.c.s
 .PHONY : glad.c.s
 
-test6_3Dcoord.o: test6_3Dcoord.cpp.o
+test7_camera.o: test7_camera.cpp.o
 
-.PHONY : test6_3Dcoord.o
+.PHONY : test7_camera.o
 
 # target to build an object file
-test6_3Dcoord.cpp.o:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/test6_3Dcoord.cpp.o
-.PHONY : test6_3Dcoord.cpp.o
+test7_camera.cpp.o:
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/test7_camera.cpp.o
+.PHONY : test7_camera.cpp.o
 
-test6_3Dcoord.i: test6_3Dcoord.cpp.i
+test7_camera.i: test7_camera.cpp.i
 
-.PHONY : test6_3Dcoord.i
+.PHONY : test7_camera.i
 
 # target to preprocess a source file
-test6_3Dcoord.cpp.i:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/test6_3Dcoord.cpp.i
-.PHONY : test6_3Dcoord.cpp.i
+test7_camera.cpp.i:
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/test7_camera.cpp.i
+.PHONY : test7_camera.cpp.i
 
-test6_3Dcoord.s: test6_3Dcoord.cpp.s
+test7_camera.s: test7_camera.cpp.s
 
-.PHONY : test6_3Dcoord.s
+.PHONY : test7_camera.s
 
 # target to generate assembly for a file
-test6_3Dcoord.cpp.s:
-	$(MAKE) -f CMakeFiles/test6.dir/build.make CMakeFiles/test6.dir/test6_3Dcoord.cpp.s
-.PHONY : test6_3Dcoord.cpp.s
+test7_camera.cpp.s:
+	$(MAKE) -f CMakeFiles/test7.dir/build.make CMakeFiles/test7.dir/test7_camera.cpp.s
+.PHONY : test7_camera.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test6"
+	@echo "... test7"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
-	@echo "... test6_3Dcoord.o"
-	@echo "... test6_3Dcoord.i"
-	@echo "... test6_3Dcoord.s"
+	@echo "... test7_camera.o"
+	@echo "... test7_camera.i"
+	@echo "... test7_camera.s"
 .PHONY : help
 
 
