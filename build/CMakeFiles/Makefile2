@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /Users/yuqingwang/Downloads/OpenGL
 CMAKE_BINARY_DIR = /Users/yuqingwang/Downloads/OpenGL/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/test10.dir
+# Target rules for target CMakeFiles/test11.dir
 
 # All Build rule for target.
-CMakeFiles/test10.dir/all:
-	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/depend
-	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles --progress-num=1,2,3 "Built target test10"
-.PHONY : CMakeFiles/test10.dir/all
+CMakeFiles/test11.dir/all:
+	$(MAKE) -f CMakeFiles/test11.dir/build.make CMakeFiles/test11.dir/depend
+	$(MAKE) -f CMakeFiles/test11.dir/build.make CMakeFiles/test11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles --progress-num=1,2,3 "Built target test11"
+.PHONY : CMakeFiles/test11.dir/all
 
 # Include target in all.
-all: CMakeFiles/test10.dir/all
+all: CMakeFiles/test11.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test10.dir/rule: cmake_check_build_system
+CMakeFiles/test11.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test10.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuqingwang/Downloads/OpenGL/build/CMakeFiles 0
-.PHONY : CMakeFiles/test10.dir/rule
+.PHONY : CMakeFiles/test11.dir/rule
 
 # Convenience name for target.
-test10: CMakeFiles/test10.dir/rule
+test11: CMakeFiles/test11.dir/rule
 
-.PHONY : test10
-
-# clean rule for target.
-CMakeFiles/test10.dir/clean:
-	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/clean
-.PHONY : CMakeFiles/test10.dir/clean
+.PHONY : test11
 
 # clean rule for target.
-clean: CMakeFiles/test10.dir/clean
+CMakeFiles/test11.dir/clean:
+	$(MAKE) -f CMakeFiles/test11.dir/build.make CMakeFiles/test11.dir/clean
+.PHONY : CMakeFiles/test11.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test11.dir/clean
 
 .PHONY : clean
 
