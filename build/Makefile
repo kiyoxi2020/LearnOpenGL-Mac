@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test9
+# Target rules for targets named test10
 
 # Build rule for target.
-test9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test9
-.PHONY : test9
+test10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test10
+.PHONY : test10
 
 # fast build rule for target.
-test9/fast:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/build
-.PHONY : test9/fast
+test10/fast:
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/build
+.PHONY : test10/fast
 
 glad.o: glad.c.o
 
@@ -129,7 +129,7 @@ glad.o: glad.c.o
 
 # target to build an object file
 glad.c.o:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/glad.c.o
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/glad.c.o
 .PHONY : glad.c.o
 
 glad.i: glad.c.i
@@ -138,7 +138,7 @@ glad.i: glad.c.i
 
 # target to preprocess a source file
 glad.c.i:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/glad.c.i
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/glad.c.i
 .PHONY : glad.c.i
 
 glad.s: glad.c.s
@@ -147,35 +147,35 @@ glad.s: glad.c.s
 
 # target to generate assembly for a file
 glad.c.s:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/glad.c.s
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/glad.c.s
 .PHONY : glad.c.s
 
-test9_light.o: test9_light.cpp.o
+test10_materials.o: test10_materials.cpp.o
 
-.PHONY : test9_light.o
+.PHONY : test10_materials.o
 
 # target to build an object file
-test9_light.cpp.o:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/test9_light.cpp.o
-.PHONY : test9_light.cpp.o
+test10_materials.cpp.o:
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/test10_materials.cpp.o
+.PHONY : test10_materials.cpp.o
 
-test9_light.i: test9_light.cpp.i
+test10_materials.i: test10_materials.cpp.i
 
-.PHONY : test9_light.i
+.PHONY : test10_materials.i
 
 # target to preprocess a source file
-test9_light.cpp.i:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/test9_light.cpp.i
-.PHONY : test9_light.cpp.i
+test10_materials.cpp.i:
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/test10_materials.cpp.i
+.PHONY : test10_materials.cpp.i
 
-test9_light.s: test9_light.cpp.s
+test10_materials.s: test10_materials.cpp.s
 
-.PHONY : test9_light.s
+.PHONY : test10_materials.s
 
 # target to generate assembly for a file
-test9_light.cpp.s:
-	$(MAKE) -f CMakeFiles/test9.dir/build.make CMakeFiles/test9.dir/test9_light.cpp.s
-.PHONY : test9_light.cpp.s
+test10_materials.cpp.s:
+	$(MAKE) -f CMakeFiles/test10.dir/build.make CMakeFiles/test10.dir/test10_materials.cpp.s
+.PHONY : test10_materials.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test9"
+	@echo "... test10"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
-	@echo "... test9_light.o"
-	@echo "... test9_light.i"
-	@echo "... test9_light.s"
+	@echo "... test10_materials.o"
+	@echo "... test10_materials.i"
+	@echo "... test10_materials.s"
 .PHONY : help
 
 

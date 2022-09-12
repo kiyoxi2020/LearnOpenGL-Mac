@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/test10.dir/test10_materials.cpp.o CMakeFiles/test10.dir/glad.c.o  -o test10  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lglfw 
