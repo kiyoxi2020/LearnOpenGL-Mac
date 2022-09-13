@@ -1,12 +1,12 @@
 [
 {
   "directory": "/Users/yuqingwang/Downloads/OpenGL/build",
-  "command": "/usr/bin/clang++   -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -I/Users/yuqingwang/Downloads/OpenGL/glm  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk   -o CMakeFiles/test11.dir/test11_lightmaps.cpp.o -c /Users/yuqingwang/Downloads/OpenGL/test11_lightmaps.cpp",
-  "file": "/Users/yuqingwang/Downloads/OpenGL/test11_lightmaps.cpp"
+  "command": "/usr/bin/clang++   -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -I/Users/yuqingwang/Downloads/OpenGL/glm -I/Users/yuqingwang/Downloads/OpenGL/assimp  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk   -o CMakeFiles/test12.dir/test12_assimp.cpp.o -c /Users/yuqingwang/Downloads/OpenGL/test12_assimp.cpp",
+  "file": "/Users/yuqingwang/Downloads/OpenGL/test12_assimp.cpp"
 },
 {
   "directory": "/Users/yuqingwang/Downloads/OpenGL/build",
-  "command": "/usr/bin/clang  -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -I/Users/yuqingwang/Downloads/OpenGL/glm  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk   -o CMakeFiles/test11.dir/glad.c.o   -c /Users/yuqingwang/Downloads/OpenGL/glad.c",
+  "command": "/usr/bin/clang  -I/Users/yuqingwang/Downloads/OpenGL/. -I/usr/local/include -I/Users/yuqingwang/Downloads/OpenGL/glm -I/Users/yuqingwang/Downloads/OpenGL/assimp  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk   -o CMakeFiles/test12.dir/glad.c.o   -c /Users/yuqingwang/Downloads/OpenGL/glad.c",
   "file": "/Users/yuqingwang/Downloads/OpenGL/glad.c"
 }
 ]

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.9)
 
-project(test11)
+project(test12)
 
 # set(CMAKE_CXX_STANDARD 11)
 # SET(CMAKE_BUILD_TYPE Debug)
@@ -9,7 +9,10 @@ project(test11)
 include_directories(.)
 include_directories(/usr/local/include)
 include_directories(glm)
+include_directories(assimp)
 link_directories(/usr/local/lib)
+link_directories(./assimp/bin)
+link_directories(./resource)
 
-add_executable(test11 test11_lightmaps.cpp glad.c shader_s.h stb_image.h)
-target_link_libraries(test11 glfw)
+add_executable(test12 test12_assimp.cpp glad.c shader_s.h stb_image.h)
+target_link_libraries(test12 glfw assimp)
